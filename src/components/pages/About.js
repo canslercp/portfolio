@@ -3,9 +3,9 @@ import me from '../../assets/Me.jpg';
 
 export default function About() {
     return (
-        <div>
-            <img src={me} alt="Corbin Cansler head-shot" />
-            <p>
+        <div className="bio">
+            <img className="me-image" src={me} alt="Corbin Cansler head-shot" />
+            <p className="bio-text">
             Full-Stack Web Developer with a passion for learning and a strong foundation in problem solving, 
             pattern recognition, and logic, established through my degree in mathematics. I am an effective 
             communicator and team player, demonstrated throughout the Georgia Tech Coding Bootcamp 
