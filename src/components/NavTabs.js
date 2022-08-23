@@ -3,18 +3,18 @@ import React from 'react';
 // Useing object destructuring to pluck off variables from the props object and assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
     return (
-        <nav className="navbar navbar-expand-lg bg-light">
+        <nav className="navbar navbar-expand-lg nav-custom">
             <div className="container-fluid">
                 {/* link to home page */}
-                <a className="navbar-brand"
+                <a className="navbar-brand name-title"
                     href="#home"
                     onClick={() => handlePageChange('Home')}
-                >CORBIN+CANSLER</a>
+                >CORBIN + CANSLER</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className="collapse navbar-collapse" id="navbarNav">
+                <div className="collapse navbar-collapse navTabs" id="navbarNav">
                     <ul className="navbar-nav">
                         <li className="nav-item">
                             <a
@@ -22,7 +22,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                                 onClick={() => handlePageChange('About')}
                                 className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
                                 aria-current={currentPage === 'About' ? 'page' : null}
-                            >-About</a>
+                            >About</a>
                         </li>
                         <li className="nav-item">
                             <a
@@ -30,7 +30,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                                 onClick={() => handlePageChange('Projects')}
                                 className={currentPage === 'Projects' ? 'nav-link active' : 'nav-link'}
                                 aria-current={currentPage === 'Projects' ? 'page' : null}
-                            >×Projects</a>
+                            >Projects</a>
                         </li>
                         <li className="nav-item">
                             <a
@@ -38,7 +38,7 @@ function NavTabs({ currentPage, handlePageChange }) {
                                 onClick={() => handlePageChange('Contact')}
                                 className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
                                 aria-current={currentPage === 'Projects' ? 'page' : null}
-                            >÷Contact</a>
+                            >Contact</a>
                         </li>
                     </ul>
                 </div>
