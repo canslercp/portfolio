@@ -15,7 +15,9 @@ export default function Contact() {
             <p>LinkedIn: linkedin.com/in/corbin-cansler/</p>
             </a>
             </div>
-            <p>placeholder for resume google doc</p>
+            <a href='https://docs.google.com/document/d/10mrgqejtw0zkWFWDRSsowHf5gC-NDGzWleriML5xBJ0/edit'>
+            <p>View and download resume</p>
+            </a>
         </div>
     )
 }
