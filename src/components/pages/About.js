@@ -6,7 +6,7 @@ export default function About() {
         <div className="bio">
             <img className="me-image" src={me} alt="Corbin Cansler head-shot" />
             <p className="bio-text">
-            Full-Stack Web Developer with a passion for learning and a strong foundation in problem solving, 
+            Hello there, I am a Full-Stack Web Developer with a passion for learning and a strong foundation in problem solving, 
             pattern recognition, and logic, established through my degree in mathematics. I am an effective 
             communicator and team player, demonstrated throughout the Georgia Tech Coding Bootcamp 
             Certificate Program, where I kept open and regular communication with my teammates while working 
