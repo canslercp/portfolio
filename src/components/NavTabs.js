@@ -14,12 +14,12 @@ function NavTabs({ currentPage, handlePageChange }) {
                     <span className="navbar-toggler-icon "></span>
                 </button>
 
-                <div className="offcanvas offcanvas-end navTabs" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-header">
                         {/* <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Navigate</h5> */}
                         <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                     </div>
-                    <ul className="navbar-nav offcanvas-body">
+                    <ul className="navbar-nav navTabs">
                         <li className="nav-item">
                             <a
                                 href="#about"

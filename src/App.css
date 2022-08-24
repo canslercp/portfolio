@@ -15,7 +15,7 @@ body::-webkit-scrollbar {
 
 body {
     font-family: mainFont;
-      /* Hide scrollbar for IE, Edge and Firefox */
+    /* Hide scrollbar for IE, Edge and Firefox */
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
 }
@@ -37,6 +37,7 @@ a {
 .navTabs {
     display: flex;
     justify-content: end;
+    margin-left: 10%
 }
 
 /* home page stying--------- */
@@ -47,7 +48,6 @@ a {
     width: 100%;
     overflow-y: hidden;
     background: #f9f5ee;
-    
 }
 
 .home-text{
