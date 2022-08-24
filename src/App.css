@@ -148,3 +148,38 @@ a {
     color: inherit;
     text-decoration: none;
 }
+
+/* styling for screen size at or below 880px */
+@media screen and (max-width: 880px) {
+    
+    .bio{
+        margin-top: 20%;
+    }
+    .projects{
+        margin-top:20%;
+    }
+    .contact-container{
+        margin-top:20%; 
+    }
+}
+
+/* added styling for screen size at or below 565px */
+@media screen and (max-width: 630px) {
+    .home-hero-image{
+    
+        height:100%;
+        width: auto;
+        object-fit: cover;
+        /* object-position: 0 -500px; */
+    }
+}
+
+/* added styling for screen size at or below 400px */
+@media screen and (max-width: 400px) {
+    .bio{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    }
+}
