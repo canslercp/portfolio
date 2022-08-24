@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.24393c1f.css",
-    "main.js": "/portfolio/static/js/main.387c09f2.js",
+    "main.css": "/portfolio/static/css/main.933c7728.css",
+    "main.js": "/portfolio/static/js/main.73a3bafb.js",
     "static/media/rerun-app.png": "/portfolio/static/media/rerun-app.eb8f8de01e577c8b472f.png",
     "static/media/Me.jpg": "/portfolio/static/media/Me.13d6d1f642fa1231fc9e.jpg",
     "static/media/final-countdown-app.png": "/portfolio/static/media/final-countdown-app.62a581c7f7aa91db0efc.png",
@@ -10,11 +10,11 @@
     "static/media/weather-app.png": "/portfolio/static/media/weather-app.c7a7df201aa8d966d9f9.png",
     "static/media/Aboreto-Regular.ttf": "/portfolio/static/media/Aboreto-Regular.7c5655d7b7541650e02d.ttf",
     "index.html": "/portfolio/index.html",
-    "main.24393c1f.css.map": "/portfolio/static/css/main.24393c1f.css.map",
-    "main.387c09f2.js.map": "/portfolio/static/js/main.387c09f2.js.map"
+    "main.933c7728.css.map": "/portfolio/static/css/main.933c7728.css.map",
+    "main.73a3bafb.js.map": "/portfolio/static/js/main.73a3bafb.js.map"
   },
   "entrypoints": [
-    "static/css/main.24393c1f.css",
-    "static/js/main.387c09f2.js"
+    "static/css/main.933c7728.css",
+    "static/js/main.73a3bafb.js"
   ]
 }
