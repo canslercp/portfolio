@@ -97,7 +97,7 @@ a {
 }
 
 /* projects styling------------ */
-.projects{
+.project-container{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -105,18 +105,42 @@ a {
     flex-wrap:wrap;
     margin-top:10%;
 }
-.project-image{
+.project{
+    position: relative;
+    text-align: center;
     width: 300px;
     height: 250px;
-    object-fit: cover;
-    opacity: 50%;
     padding: 5px;
-    
+    opacity: 40%;
 }
-.project-image:hover{
+.project-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.project p{
+    visibility: hidden;
+    position:absolute;
+    bottom: 0%;
+    width:100%;    
+    height:40%;
+    text-align: center;
+    font-family: homeFont;
+    font-weight:900;
+    font-size: 120%;
+    overflow-wrap: break-word;
+    background: #ffffff;
+    opacity: 95%;
+    padding: 10px;
+}
+.project:hover{
     opacity: 100%;
     width: 500px;
     height:auto;
+    
+}
+.project:hover p{
+    visibility:visible;
 }
 
 /* contact page styling--------- */
@@ -155,7 +179,7 @@ a {
     .bio{
         margin-top: 20%;
     }
-    .projects{
+    .project-container{
         margin-top:20%;
     }
     .contact-container{
@@ -165,10 +189,10 @@ a {
 
 /* added styling for screen size at or below 565px */
 @media screen and (max-width: 630px) {
-    /* body{
-        max-width: 630px;
+    body{
+        /* max-width: 630px; */
         overflow-x:hidden;
-    } */
+    }
     .home-hero-image{
         height:100%;
         width: auto;
@@ -178,11 +202,14 @@ a {
 }
 
 /* added styling for screen size at or below 400px */
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 475px) {
     .bio{
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    }
+    .bio-text{
+        margin-top: 4%;
     }
 }
