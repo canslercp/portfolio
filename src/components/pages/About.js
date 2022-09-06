@@ -15,7 +15,9 @@ export default function About() {
             development, and leading the Math 1 instructional team. My experience as an educator required me 
             to continue to learn and apply new teaching methodologies and in doing so, I was awarded 
             Beginning Teacher of the Year! I look forward to continuing to expand my skills and explore new 
-            technologies in this exciting and ever-changing industry. 
+            technologies in this exciting and ever-changing industry. Current web development skills include:
+            HTML, CSS, JavaScript, React, Node.js, Express.js, OOP, Git, MySQL, MongoDB, GraphQL, TDD, MVC, 
+            ORM, RESTful API, Third-Party API, jQuery, and Bootstrap
             </p>
         </div>
     );
