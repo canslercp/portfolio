@@ -1,20 +1,30 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.bd65c7c8.css",
-    "main.js": "/portfolio/static/js/main.577189aa.js",
+    "main.css": "/portfolio/static/css/main.02b51db8.css",
+    "main.js": "/portfolio/static/js/main.6d1bc97d.js",
     "static/media/rerun-app.png": "/portfolio/static/media/rerun-app.eb8f8de01e577c8b472f.png",
     "static/media/Me.jpg": "/portfolio/static/media/Me.13d6d1f642fa1231fc9e.jpg",
     "static/media/final-countdown-app.png": "/portfolio/static/media/final-countdown-app.62a581c7f7aa91db0efc.png",
     "static/media/coffee-5518359_1920.jpg": "/portfolio/static/media/coffee-5518359_1920.6cbdd4532cb3cf196186.jpg",
     "static/media/Roboto-Light.ttf": "/portfolio/static/media/Roboto-Light.333da16a3f3cc391d087.ttf",
     "static/media/weather-app.png": "/portfolio/static/media/weather-app.c7a7df201aa8d966d9f9.png",
+    "static/media/bootstrap.png": "/portfolio/static/media/bootstrap.f132cb791703420e69ca.png",
     "static/media/Aboreto-Regular.ttf": "/portfolio/static/media/Aboreto-Regular.7c5655d7b7541650e02d.ttf",
+    "static/media/OpenWeather-Logo.jpeg": "/portfolio/static/media/OpenWeather-Logo.70978697076e8ff9c810.jpeg",
+    "static/media/express.png": "/portfolio/static/media/express.04e4743fbd704db71ed7.png",
+    "static/media/jquery.png": "/portfolio/static/media/jquery.037eb1f85e862145ba1d.png",
+    "static/media/react.webp": "/portfolio/static/media/react.bb08c1d35a8954e6c76a.webp",
+    "static/media/javascript.png": "/portfolio/static/media/javascript.d562ec262a0e64b4c323.png",
+    "static/media/css.png": "/portfolio/static/media/css.141e321af46fb08ecc1a.png",
+    "static/media/sequelize.png": "/portfolio/static/media/sequelize.416de0f87c570a1d09c3.png",
+    "static/media/mysql-logo.png": "/portfolio/static/media/mysql-logo.9d063b43f28fb96f43c2.png",
+    "static/media/HTML.webp": "/portfolio/static/media/HTML.583743f61cf55c5c1314.webp",
     "index.html": "/portfolio/index.html",
-    "main.bd65c7c8.css.map": "/portfolio/static/css/main.bd65c7c8.css.map",
-    "main.577189aa.js.map": "/portfolio/static/js/main.577189aa.js.map"
+    "main.02b51db8.css.map": "/portfolio/static/css/main.02b51db8.css.map",
+    "main.6d1bc97d.js.map": "/portfolio/static/js/main.6d1bc97d.js.map"
   },
   "entrypoints": [
-    "static/css/main.bd65c7c8.css",
-    "static/js/main.577189aa.js"
+    "static/css/main.02b51db8.css",
+    "static/js/main.6d1bc97d.js"
   ]
 }
