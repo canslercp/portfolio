@@ -3,6 +3,7 @@ import React from 'react';
 import rerun from '../../assets/rerun-app.png'
 import finalCountdown from '../../assets/final-countdown-app.png'
 import weather from '../../assets/weather-app.png'
+import smallChange from '../../assets/smallChange.png'
 // Tecnology icons
 import github from '../../assets/GitHub-Mark-64px.png'
 import css from '../../assets/css.png'
@@ -103,13 +104,60 @@ export default function Projects() {
             </div>
             </div>
             <div className='project'>
+            <a href='https://smallchange-app.herokuapp.com/' target="_blank" rel="noreferrer">
+            <img className='project-image' src={smallChange} alt='Small Change is an app to encourage and inspire people to bring more kindness into their day-to-day routine.'/>
+            </a>
+            <div className='project-description'>
+            <p>Small Change is an app to inspire people to bring more kindness into their day-to-day routine.</p>
+            {/* div for github link and tech used */}
+            <div className='project-tech'>
+                <a href='https://github.com/canslercp/rerun-game' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={github} alt='GitHub'/>
+                </a>
+                <a href='https://www.javascript.com/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={javascript} alt='Javascript'/>
+                </a>
+                <a href='https://www.w3schools.com/css/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={css} alt='CSS'/>
+                </a>
+                <a href='https://www.w3schools.com/html/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={html} alt='HTML'/>
+                </a>
+                <a href='https://getbootstrap.com/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={bootstrap} alt='Bootstrap'/>
+                </a>
+                <a href='https://expressjs.com/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={express} alt='Express.js'/>
+                </a>
+                <a href='https://nodejs.org/en/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={node} alt='Node.js'/>
+                </a>
+                <a href='https://www.mongodb.com/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={mongodb} alt='MongoDB'/>
+                </a>
+                <a href='https://graphql.org/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={graphql} alt='GraphQL'/>
+                </a>
+                <a href='https://www.npmjs.com/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={npm} alt='NPM'/>
+                </a>
+                <a href='https://reactjs.org/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={react} alt='React.js'/>
+                </a>
+                <a href='https://heroku.com/' target="_blank" rel="noreferrer">
+                <img className='tech-icon' src={heroku} alt='Heroku'/>
+                </a>
+            </div>
+            </div>
+            </div>
+            {/* <div className='project'>
             <a href='https://canslercp.github.io/weather-dashboard-corbin-cansler/' target="_blank" rel="noreferrer">
             <img className='project-image' src={weather} alt='A  weather dashboard that will run in the browser and use the OpenWeather One Call API to retrieve weather data for cities.'/>
             </a>
             <div className='project-description'>
             <p>A weather dashboard that runs in the browser and uses the OpenWeather One Call API to retrieve weather data for cities.</p>
             {/* div for github link and tech used */}
-            <div className='project-tech'>
+            {/* <div className='project-tech'>
                 <a href='https://github.com/canslercp/the_final_countdown' target="_blank" rel="noreferrer">
                 <img className='tech-icon' src={github} alt='GitHub'/>
                 </a>
@@ -130,7 +178,7 @@ export default function Projects() {
                 </a>
             </div >
             </div>
-            </div>
+            </div>  */}
         </div >
     );
 }
